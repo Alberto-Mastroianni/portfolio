@@ -1,0 +1,26 @@
+{
+  "cwd": "/home/master/Desktop/portfolio",
+  "type": [
+    "pwa",
+    "capacitor"
+  ],
+  "name": "Portfolio",
+  "framework": "svelte",
+  "template": "tabs",
+  "bundler": "vite",
+  "cssPreProcessor": "less",
+  "theming": {
+    "customColor": true,
+    "color": "#007aff",
+    "darkMode": true,
+    "iconFonts": true
+  },
+  "customBuild": false,
+  "pkg": "io.framework7.myapp",
+  "capacitor": {
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}
