@@ -70,7 +70,7 @@
           <div class="text">
             <h1>Diritti delle Donne<small>(2020/21)</small></h1>
             <p>
-              <PdfViewer href="/diritti_donne.pdf"/>
+              <PdfViewer href="./docs/diritti_donne.pdf"/>
             </p>
           </div>
           <img src={immaginedonne} alt="Foto Donne">
@@ -92,7 +92,7 @@
           <div class="text">
             <h1>Emancipazione Femminile<small>(2020/21)</small></h1>
             <p>
-              <PdfViewer href="/emancipazione_femminile.pdf"/>
+              <PdfViewer href="./docs/emancipazione_femminile.pdf"/>
             </p>
           </div>
           <img src={emancipazione_femm} alt="Foto Donne">
