@@ -17,11 +17,10 @@
     <hr>
     <br>
    
-      <p>Contatti:</p>
-      <p> alberto.mastroianni@istitutoagnelli.it</p>
-      <p> Numero: +39-3713595253</p>
-      <p> Per ogni informazione o chiarimenti, resto disponibile.</p>
-      <p>⠀⠀⠀⠀</p>
+      <p>&nbsp; Contatti:</p>
+      <p>&nbsp; alberto.mastroianni@istitutoagnelli.it</p>
+      <p>&nbsp; Numero: +39-3713595253</p>
+      <p>&nbsp; Per ogni informazione o chiarimenti, resto disponibile.</p><br>
     
     <!-- <ListItem link="#" title="Altro"/> -->
 

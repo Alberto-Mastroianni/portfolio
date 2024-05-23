@@ -16,7 +16,6 @@
     <!-- Tabbar for switching views-tabs -->
     <Toolbar tabbar icons bottom>
       <Link tabLink="#view-home" tabLinkActive iconIos="f7:house_fill" iconMd="material:home" text="Home" />
-      <Link tabLink="#view-catalog" iconIos="f7:square_list_fill" iconMd="material:view_list" text="Materie" />
     </Toolbar>
 
     <!-- Your main view/tab, should have "view-main" class. It also has "tabActive" prop -->

@@ -1,6 +1,5 @@
 
 import HomePage from '../pages/home.svelte';
-import CatalogPage from '../pages/catalog.svelte';
 import articolo from '../pages/articolo.svelte';
 import articolo2 from '../pages/articolo2.svelte';
 import articolo3 from '../pages/articolo3.svelte';
@@ -13,12 +12,6 @@ var routes = [
     path: '/',
     component: HomePage,
   },
-  {
-    path: '/catalog/',
-    component: CatalogPage,
-  },
-
-  
   {
     path: '/articolo/',
     component: articolo,
