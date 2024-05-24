@@ -1,0 +1,31 @@
+name: Deploy to Portfolio
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Install dependencies
+        run: npm i
+      - name: Build website
+        run: npm run build && touch www/.nojekyll
+      - name: Deploy pages
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          build_dir: www
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
