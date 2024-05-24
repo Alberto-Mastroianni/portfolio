@@ -1,22 +1,5 @@
 <script>
   import Download from '../components/download.svelte';
-  let downloadName1 = 'diritti_donne.pdf';
-  let downloadName2 = 'emancipazione_femminile.pdf';
-  let downloadName3 = 'alda_merini.pdf';
-  let downloadName4 = 'stragi_in_italia.pptx';
-  let downloadName5 = 'depistaggio.pptx';
-  let downloadName6 = 'processo_palermo.pdf';
-  let downloadName7 = 'pena_di_morte.pptx';
-  let downloadName8 = 'prigioni.pptx';
-
-  let dirittidonne = './src/files/diritti_donne.pdf';
-  let emancipazionefemminile = './src/files/emancipazione_femminile.pdf';
-  let alda_merini = './src/files/alda_merini.pdf';
-  let stragitalia = './src/files/stragi_in_italia.pptx';
-  let depistaggio = './src/files/depistaggio.pptx';
-  let processo = './src/files/processo_palermo.pdf';
-  let pena_morte = './src/files/pena_di_morte.pptx';
-  let prigioni = './src/files/prigioni.pptx';
 
   import { Navbar, Page, Block, Tabs, Tab, Link, Toolbar, NavRight, BlockTitle, Card, CardHeader, CardContent, CardFooter, List, ListItem, } from 'framework7-svelte';
   import immaginedonne from '../img/noi-donne.jpg';
@@ -70,7 +53,7 @@
           <div class="text">
             <h1>Diritti delle Donne<small>(2020/21)</small></h1>
             <p>
-              <PdfViewer href="./docs/diritti_donne.pdf"/>
+              <PdfViewer href="diritti_donne.pdf"/>
             </p>
           </div>
           <img src={immaginedonne} alt="Foto Donne">
@@ -92,7 +75,7 @@
           <div class="text">
             <h1>Emancipazione Femminile<small>(2020/21)</small></h1>
             <p>
-              <PdfViewer href="./docs/emancipazione_femminile.pdf"/>
+              <PdfViewer href="/emancipazione_femminile.pdf"/>
             </p>
           </div>
           <img src={emancipazione_femm} alt="Foto Donne">
