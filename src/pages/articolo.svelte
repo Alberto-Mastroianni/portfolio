@@ -75,7 +75,7 @@
           <div class="text">
             <h1>Emancipazione Femminile<small>(2020/21)</small></h1>
             <p>
-              <PdfViewer href="/emancipazione_femminile.pdf"/>
+              <PdfViewer href="emancipazione_femminile.pdf"/>
             </p>
           </div>
           <img src={emancipazione_femm} alt="Foto Donne">
@@ -93,7 +93,7 @@
           <div class="text">
             <h1>Alda Merini<small>(2020/21)</small></h1>
             <p>
-              <PdfViewer href="/alda_merini.pdf"/>
+              <PdfViewer href="alda_merini.pdf"/>
             </p>
           </div>
           <img src={merini} alt="Foto Donne">
@@ -110,7 +110,7 @@
           <div class="text">
             <h1>Stragi in Italia<small>(2020/21)</small></h1>
             <p>
-              <PdfViewer href="/stragi_in_italia.pdf"/>
+              <PdfViewer href="stragi_in_italia.pdf"/>
             </p>
           </div>
           <img src={stragi_italia} alt="Foto Donne">
@@ -131,7 +131,7 @@
           <div class="text">
             <h1>Depistaggio<small>(2020/21)</small></h1>
             <p>
-              <PdfViewer href="/depistaggio.pdf"/>
+              <PdfViewer href="depistaggio.pdf"/>
             </p>
           </div>
           <img src={depistaggioo} alt="Foto Donne">
@@ -149,7 +149,7 @@
           <div class="text">
             <h1>Il Maxiprocesso di Palermo<small>(2020/21)</small></h1>
             <p>
-              <PdfViewer href="/processo_palermo.pdf"/>
+              <PdfViewer href="processo_palermo.pdf"/>
             </p>
           </div>
           <img src={maxi_processo} alt="Foto Donne">
@@ -165,7 +165,7 @@
           <div class="text">
             <h1>Pena di Morte<small>(2020/21)</small></h1>
             <p>
-              <PdfViewer href="/pena_di_morte.pdf"/>
+              <PdfViewer href="pena_di_morte.pdf"/>
             </p>
           </div>
           <img src={pena_di_muerte} alt="Foto Donne">
@@ -181,7 +181,7 @@
           <div class="text">
             <h1>Situazione Carceraria in Italia<small>(2020/21)</small></h1>
             <p>
-              <PdfViewer href="/prigioni.pdf"/>
+              <PdfViewer href="prigioni.pdf"/>
             </p>
           </div>
           <img src={carcerieri} alt="Foto Donne">

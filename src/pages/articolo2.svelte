@@ -36,7 +36,7 @@
           <div class="text">
             <h1>Risks and Dangers for mobile phones<small>(2020/21)</small></h1>
             <p>
-              <PdfViewer href="/risk_phones.pdf"/>
+              <PdfViewer href="risk_phones.pdf"/>
             </p>
           </div>
           <img src={telefon} alt="Rischio del cell">

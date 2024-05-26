@@ -36,7 +36,7 @@
             <div class="text">
               <h1>Capolavoro Croce Verde Torino<small>(2020/21)</small></h1>
               <p>
-                <PdfViewer href="/croce_verde.pdf"/>
+                <PdfViewer href="croce_verde.pdf"/>
               </p>
             </div>
             <img src={croce_verde} alt="Croce Verde">
